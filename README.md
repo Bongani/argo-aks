@@ -6,7 +6,7 @@ Helping guide to setting up Argo Workflow in Azure Kubernetes Service
 `kubectl create ns argo`
 
 ## 2. Install Argo Workflow
-`kubectl -n argo ./install.yaml`
+`kubectl apply -n argo ./install.yaml`
 
 ## 3. Configure Service Account & RBAC
 
